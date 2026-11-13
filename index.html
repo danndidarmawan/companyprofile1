@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Mega Niaga Teknik - Maintenance Alat Berat Profesional</title>
+    <title>PT. Marine Niaga Teknik - Maintenance Alat Berat & Marine Engineering Profesional</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -63,17 +63,29 @@
             display: flex; align-items: center; justify-content: space-between;
         }
         .nav-logo {
-            display: flex; align-items: center; gap: 10px; color: var(--white);
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
         }
-        .nav-logo-icon {
-            width: 40px; height: 40px;
-            background: var(--yellow);
+        .nav-logo-box {
+            background: #ffffff;
+            padding: 6px 14px;
             border-radius: 8px;
-            display: flex; align-items: center; justify-content: center;
-            color: var(--black); font-size: 1.1rem; font-weight: 900;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .nav-logo span {
-            font-size: 1.1rem; font-weight: 800; letter-spacing: -0.5px;
+        .nav-logo-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.28);
+        }
+        .nav-logo-img {
+            height: 38px;
+            width: auto;
+            max-width: 260px;
+            object-fit: contain;
+            display: block;
         }
         .nav-links {
             display: flex; align-items: center; gap: 32px; list-style: none;
@@ -104,7 +116,7 @@
         }
         .hero-bg {
             position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-            background: url('img/photo-excavator-inspect.jpg') center/cover no-repeat;
+            background: url('img/photo-hero-banner.jpg') center/cover no-repeat;
             opacity: 0.38;
         }
         .hero-overlay {
@@ -926,8 +938,9 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="nav-logo">
-                <div class="nav-logo-icon"><i class="fas fa-cogs"></i></div>
-                <span>MNT</span>
+                <div class="nav-logo-box">
+                    <img src="img/logo.png" alt="PT. Marine Niaga Teknik - Industrial, Marine and Part Component" class="nav-logo-img">
+                </div>
             </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#beranda">Beranda</a></li>
@@ -949,14 +962,14 @@
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
-                <div class="hero-tag"><i class="fas fa-hard-hat"></i> CV Mega Niaga Teknik</div>
+                <div class="hero-tag"><i class="fas fa-ship"></i> Port • Marine • Construction</div>
                 <h1 class="hero-title">
                     Membangun<br>
                     produktivitas<br>
                     dengan <span class="yellow">dedikasi</span>
                 </h1>
                 <p class="hero-desc">
-                    Solusi maintenance alat berat terpercaya di industri pelabuhan (port machinery), marine & industrial engineering, hingga pemeliharaan menyeluruh asset building di seluruh Indonesia.
+                    Solusi terpadu <em>One Stop Service</em> di sektor <strong>Port, Marine, & Construction</strong>: Service mesin construction, electrical system, overhaul engine, hingga penyediaan <strong>Original Sparepart</strong> bergaransi resmi di seluruh Indonesia.
                 </p>
                 <div class="hero-buttons">
                     <a href="#layanan" class="btn btn-yellow">
@@ -975,20 +988,20 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-number">15<span>+</span></div>
+                    <div class="stat-number">5<span>+</span></div>
                     <div class="stat-label">Tahun Pengalaman</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">500<span>+</span></div>
-                    <div class="stat-label">Proyek Terselesaikan</div>
+                    <div class="stat-label">Proyek & Unit Ditangani</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">50<span>+</span></div>
-                    <div class="stat-label">Teknisi Ahli</div>
+                    <div class="stat-number">100<span>%</span></div>
+                    <div class="stat-label">Original Sparepart</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">98<span>%</span></div>
-                    <div class="stat-label">Kepuasan Klien</div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Seluruh Indonesia</div>
                 </div>
             </div>
         </div>
@@ -1011,25 +1024,37 @@
                 </div>
                 <div>
                     <div class="section-label">Tentang Kami</div>
-                    <h2 class="section-title">Grup maintenance alat berat terintegrasi Indonesia</h2>
+                    <h2 class="section-title">Mitra Terpercaya Solusi Terpadu One Stop Service</h2>
                     <p class="section-desc">
-                        <strong>CV Mega Niaga Teknik</strong> adalah perusahaan jasa di bidang mechanical & electrical engineering untuk keperluan marine dan industrial. Kami menghadirkan solusi perawatan dan overhaul alat berat, permesinan pelabuhan (port), hingga pemeliharaan terpadu asset building di seluruh Indonesia.
+                        <strong>PT. Marine Niaga Teknik</strong> merupakan perusahaan penyedia jasa dengan konsep <em>One Stop Service</em> yang berkomitmen memberikan solusi terpadu untuk memenuhi berbagai kebutuhan pelanggan di sektor <strong>Port (Pelabuhan), Marine, dan Construction</strong> serta sektor industri dan bisnis lainnya.
                     </p>
                     <p class="section-desc">
-                        Dengan tim teknisi bersertifikasi dan peralatan modern, kami berkomitmen memberikan layanan berkualitas tinggi yang mengedepankan keselamatan kerja, efisiensi, dan kepuasan pelanggan.
+                        Dengan jangkauan layanan yang mencakup seluruh wilayah Indonesia, kami hadir sebagai mitra terpercaya yang mengutamakan kualitas layanan, profesionalisme, serta kepuasan pelanggan — didukung penyediaan <strong>Original Sparepart</strong> berstandar pabrikan resmi untuk memastikan keandalan dan umur panjang alat Anda.
+                    </p>
+                    <p class="section-desc">
+                        Kami percaya bahwa setiap kebutuhan pelanggan membutuhkan solusi yang tepat, efektif, dan dapat diandalkan. Oleh karena itu, PT. Marine Niaga Teknik senantiasa mengedepankan pelayanan yang responsif, fleksibel, dan berorientasi pada hasil.
+                    </p>
+                    <p class="section-desc" style="font-weight: 600; color: var(--dark);">
+                        Kami siap menjadi mitra strategis Anda dalam menyediakan layanan maintenance, electrical, dan solusi sparepart original yang terintegrasi di seluruh Indonesia.
                     </p>
                     <div class="about-features">
                         <div class="about-feature">
-                            <i class="fas fa-certificate"></i> Teknisi Bersertifikasi
+                            <i class="fas fa-ship"></i> Sektor Port & Marine
                         </div>
                         <div class="about-feature">
-                            <i class="fas fa-clock"></i> Respons Cepat 24/7
+                            <i class="fas fa-hard-hat"></i> Mesin Construction
                         </div>
                         <div class="about-feature">
-                            <i class="fas fa-map-marked-alt"></i> Jangkauan Nasional
+                            <i class="fas fa-boxes"></i> 100% Original Sparepart
                         </div>
                         <div class="about-feature">
-                            <i class="fas fa-shield-alt"></i> Garansi Pekerjaan
+                            <i class="fas fa-bolt"></i> Electrical & Wiring Service
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-map-marked-alt"></i> Jangkauan Seluruh Indonesia
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-award"></i> Kualitas & Garansi Resmi
                         </div>
                     </div>
                 </div>
@@ -1042,62 +1067,62 @@
         <div class="container">
             <div class="services-header">
                 <div class="section-label">Layanan Kami</div>
-                <h2 class="section-title">Apa yang kami lakukan</h2>
-                <p class="section-desc">Solusi komprehensif perawatan dan perbaikan alat berat untuk mendukung produktivitas operasional Anda.</p>
+                <h2 class="section-title">Solusi Terpadu Port, Marine & Construction</h2>
+                <p class="section-desc">Layanan komprehensif mulai dari service mesin konstruksi, sistem kelistrikan (electrical), permesinan pelabuhan, hingga penyediaan Original Sparepart bergaransi resmi.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card tall">
                     <div class="service-card-bg" style="background-image:url('img/photo-excavator-inspect.jpg')"></div>
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
-                        <span class="service-card-tag">Utama</span>
-                        <h3>Preventive Maintenance</h3>
-                        <p>Perawatan berkala terjadwal untuk mencegah kerusakan dan memperpanjang umur pakai alat berat.</p>
+                        <span class="service-card-tag">Construction Machinery</span>
+                        <h3>Service di Mesin Construction</h3>
+                        <p>Perawatan berkala, perbaikan, dan overhaul mesin konstruksi seperti excavator, wheel loader, bulldozer, backhoe loader, compactor, dan motor grader sesuai standar rekomendasi pabrikan.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-bg" style="background-image:url('img/photo-engine-service.jpg')"></div>
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
-                        <span class="service-card-tag">Engine</span>
-                        <h3>Overhaul Engine & Transmisi</h3>
-                        <p>Perbaikan menyeluruh komponen utama dengan standar pabrik.</p>
+                        <span class="service-card-tag">Original Sparepart</span>
+                        <h3>Penyediaan Original Sparepart</h3>
+                        <p>Pengadaan suku cadang asli dan OEM bergaransi resmi: piston set, cylinder liner, bearing, injector, water/oil pump, filter, dan seal kit lengkap.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-bg" style="background-image:url('img/photo-mechanic-wrench.jpg')"></div>
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
-                        <span class="service-card-tag">Perbaikan</span>
-                        <h3>Corrective Maintenance</h3>
-                        <p>Perbaikan cepat dan tepat untuk kerusakan mendadak di lokasi customer.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-card-bg" style="background-image:url('img/photo-welding-bulldozer.jpg')"></div>
-                    <div class="service-card-overlay"></div>
-                    <div class="service-card-content">
-                        <span class="service-card-tag">Fabrikasi</span>
-                        <h3>Fabrikasi & Pengelasan</h3>
-                        <p>Fabrikasi spare part, muffler, dan attachment custom di site.</p>
+                        <span class="service-card-tag">Electrical Service</span>
+                        <h3>Electrical & Wiring Service</h3>
+                        <p>Troubleshooting sistem kelistrikan alat berat, perbaikan wiring harness, starter & alternator, kalibrasi sensor, ECU/controller, dan panel kontrol.</p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-bg" style="background-image:url('img/photo-port-crane.jpg')"></div>
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
-                        <span class="service-card-tag">Marine & Port</span>
-                        <h3>Permesinan Pelabuhan</h3>
-                        <p>Perawatan crane, conveyor, dan permesinan marine pelabuhan.</p>
+                        <span class="service-card-tag">Port & Marine</span>
+                        <h3>Permesinan Pelabuhan & Marine</h3>
+                        <p>Perawatan dan overhaul gantry crane, harbor mobile crane, conveyor belt, genset marine, winch dermaga, dan permesinan pelabuhan.</p>
                     </div>
                 </div>
                 <div class="service-card">
-                    <div class="service-card-bg" style="background-image:url('img/photo-excavator-inspect.jpg')"></div>
+                    <div class="service-card-bg" style="background-image:url('img/photo-engine-service.jpg')"></div>
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
-                        <span class="service-card-tag">SDM</span>
-                        <h3>Man Power Supply</h3>
-                        <p>Penyediaan mekanik, welder, dan teknisi bersertifikasi.</p>
+                        <span class="service-card-tag">Engine & Transmisi</span>
+                        <h3>General Overhaul Engine</h3>
+                        <p>Perbaikan menyeluruh mesin diesel, transmisi, dan final drive sesuai standar pabrikan dengan pengukuran aktual presisi tiap part.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-bg" style="background-image:url('img/photo-welding-bulldozer.jpg')"></div>
+                    <div class="service-card-overlay"></div>
+                    <div class="service-card-content">
+                        <span class="service-card-tag">Fabrikasi & Welder</span>
+                        <h3>Fabrikasi & Pengelasan</h3>
+                        <p>Fabrikasi attachment custom, rekondisi bucket & blade bulldozer, pembuatan muffler, pengelasan struktur, dan supply welder berpengalaman.</p>
                     </div>
                 </div>
             </div>
@@ -1110,9 +1135,9 @@
             <div class="vision-grid">
                 <div>
                     <div class="section-label" style="color:var(--yellow);">Visi Kami</div>
-                    <h2 class="vision-title">Menjaga produktivitas alat berat Anda, lebih kuat dan tangguh.</h2>
+                    <h2 class="vision-title">Menjaga produktivitas sektor Port, Marine & Construction lebih kuat dan tangguh.</h2>
                     <p class="vision-desc">
-                        Kami memahami bahwa downtime alat berat berarti kerugian besar bagi bisnis Anda. Tim kami berkomitmen memberikan layanan tercepat dan terbaik untuk memastikan unit Anda selalu siap beroperasi.
+                        Kami memahami bahwa downtime alat berat dan permesinan industri berarti kerugian besar bagi operasional Anda. Didukung tim mekanik handal, teknisi electrical berpengalaman, serta jaminan Original Sparepart bergaransi resmi, kami memastikan seluruh armada dan unit Anda beroperasi optimal.
                     </p>
                     <a href="#kontak" class="btn btn-yellow">
                         <i class="fas fa-paper-plane"></i> Minta Penawaran
@@ -1336,24 +1361,33 @@
         <div class="container">
             <div class="clients-header">
                 <div class="section-label">Klien Kami</div>
-                <h2 class="section-title">Dipercaya berbagai perusahaan</h2>
-                <p class="section-desc">Kami bangga menjadi mitra terpercaya perusahaan terkemuka di sektor permesinan pelabuhan (port), marine, logistik, instansi pemerintah, hingga pengelola fasilitas asset building.</p>
+                <h2 class="section-title">Dipercaya Berbagai Perusahaan Terkemuka</h2>
+                <p class="section-desc">Kami bangga menjadi mitra terpercaya berbagai perusahaan terkemuka di sektor maritim & logistik, permesinan pelabuhan (port), rekayasa industri, permesinan konstruksi & tambang, hingga instansi pemerintah.</p>
             </div>
             <div class="clients-logo-grid">
                 <div class="client-item">
-                    <img src="img/client-ktu.png" alt="Kaluku Transport Utama">
-                </div>
-                <div class="client-item dark-bg">
-                    <img src="img/client-2.png" alt="Client Partner">
+                    <img src="img/client-pelindo.png" alt="Pelindo Terminal Petikemas">
                 </div>
                 <div class="client-item">
-                    <img src="img/client-pelindo.png" alt="Pelindo Terminal Petikemas">
+                    <img src="img/client-titan.png" alt="PT Titan Transport Indonusa">
+                </div>
+                <div class="client-item">
+                    <img src="img/client-ktu.png" alt="Kaluku Transport Utama">
+                </div>
+                <div class="client-item">
+                    <img src="img/client-vanderhorst.png" alt="PT. SSE-Van Der Horst Indonesia">
+                </div>
+                <div class="client-item">
+                    <img src="img/client-riung.png" alt="Riung Mining Contractor">
                 </div>
                 <div class="client-item">
                     <img src="img/client-dsda.png" alt="Dinas Sumber Daya Air DKI Jakarta">
                 </div>
                 <div class="client-item">
                     <img src="img/client-mct.png" alt="MCT">
+                </div>
+                <div class="client-item dark-bg">
+                    <img src="img/client-2.png" alt="Client Partner">
                 </div>
             </div>
         </div>
@@ -1371,7 +1405,7 @@
                     <div class="quote-avatar">D</div>
                     <div class="quote-info">
                         <strong>Direktur Utama</strong>
-                        <span>CV Mega Niaga Teknik</span>
+                        <span>PT. Marine Niaga Teknik</span>
                     </div>
                 </div>
             </div>
@@ -1383,8 +1417,8 @@
         <div class="container">
             <div class="gallery-header">
                 <div class="section-label">Galeri</div>
-                <h2 class="section-title">Dokumentasi Proyek Kami</h2>
-                <p class="section-desc">Beberapa dokumentasi dari proyek maintenance dan perbaikan alat berat yang telah kami kerjakan.</p>
+                <h2 class="section-title">Dokumentasi Port, Marine & Construction</h2>
+                <p class="section-desc">Dokumentasi nyata perawatan mesin construction, instalasi electrical, permesinan pelabuhan, hingga overhaul di workshop dan on-site customer.</p>
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item wide">
@@ -1424,7 +1458,7 @@
                 <a href="#kontak" class="btn btn-yellow">
                     <i class="fas fa-paper-plane"></i> Minta Penawaran
                 </a>
-                <a href="https://wa.me/6281776415826" class="btn btn-outline" target="_blank">
+                <a href="https://wa.me/6281335354449" class="btn btn-outline" target="_blank">
                     <i class="fab fa-whatsapp"></i> Chat WhatsApp
                 </a>
             </div>
@@ -1445,28 +1479,28 @@
                         <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <h4>Alamat Kantor Operasional</h4>
-                            <p>Jl. Taman Palem Lestari, Ruko Pelangi Blok K No. 70<br>Cengkareng, Jakarta 11730, Indonesia</p>
+                            <p>Taman Palem Lestari Blok M No. 17, RT 004 / RW 011<br>Cengkareng Barat, Cengkareng, Jakarta Barat, DKI Jakarta 11730</p>
                         </div>
                     </div>
                     <div class="contact-card">
                         <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <h4>Telepon / WhatsApp</h4>
-                            <p>+62 817-7641-5826 (Direct Service)<br>Standby 24/7 Response</p>
+                            <p>+62 813-3535-4449 (Direct Service)<br>Standby 24/7 Response</p>
                         </div>
                     </div>
                     <div class="contact-card">
                         <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                         <div>
                             <h4>Email</h4>
-                            <p>info@meganiagateknik.co.id<br>marketing@meganiagateknik.co.id</p>
+                            <p>dwiirawan7007@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-card">
                         <div class="contact-icon"><i class="fas fa-clock"></i></div>
                         <div>
                             <h4>Jam Operasional</h4>
-                            <p>Senin - Sabtu: 08:00 - 17:00 WITA<br>Emergency Service: 24/7</p>
+                            <p>Senin - Sabtu: 08:00 - 17:00 WIB<br>Emergency Service: 24/7</p>
                         </div>
                     </div>
                 </div>
@@ -1497,12 +1531,12 @@
                             <label>Layanan yang Dibutuhkan</label>
                             <select>
                                 <option value="">Pilih layanan</option>
-                                <option>Preventive Maintenance</option>
-                                <option>Corrective Maintenance</option>
-                                <option>Overhaul Engine & Transmisi</option>
-                                <option>Fabrikasi & Modifikasi</option>
-                                <option>Man Power Supply</option>
-                                <option>Analisa Oli & Diagnosa</option>
+                                <option>Service Mesin Construction</option>
+                                <option>Penyediaan Original Sparepart</option>
+                                <option>Electrical & Wiring Service</option>
+                                <option>Permesinan Pelabuhan & Marine</option>
+                                <option>General Overhaul Engine & Transmisi</option>
+                                <option>Fabrikasi, Pengelasan & Modifikasi</option>
                                 <option>Lainnya</option>
                             </select>
                         </div>
@@ -1524,9 +1558,10 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="#" class="nav-logo">
-                        <div class="nav-logo-icon"><i class="fas fa-cogs"></i></div>
-                        <span style="color:var(--white); font-size:1.1rem; font-weight:800;">Mega Niaga Teknik</span>
+                    <a href="#" class="nav-logo" style="margin-bottom: 16px;">
+                        <div class="nav-logo-box">
+                            <img src="img/logo.png" alt="PT. Marine Niaga Teknik - Industrial, Marine and Part Component" class="nav-logo-img">
+                        </div>
                     </a>
                     <p>Mitra terpercaya Anda dalam perawatan dan perbaikan alat berat. Kami berkomitmen memberikan layanan terbaik untuk mendukung kelancaran operasional bisnis Anda.</p>
                     <div class="footer-socials">
@@ -1539,11 +1574,12 @@
                 <div class="footer-col">
                     <h4>Layanan</h4>
                     <ul>
-                        <li><a href="#layanan">Preventive Maintenance</a></li>
-                        <li><a href="#layanan">Corrective Maintenance</a></li>
+                        <li><a href="#layanan">Mesin Construction</a></li>
+                        <li><a href="#layanan">Original Sparepart</a></li>
+                        <li><a href="#layanan">Electrical & Wiring</a></li>
+                        <li><a href="#layanan">Permesinan Pelabuhan</a></li>
                         <li><a href="#layanan">Overhaul Engine</a></li>
-                        <li><a href="#layanan">Fabrikasi & Modifikasi</a></li>
-                        <li><a href="#layanan">Man Power Supply</a></li>
+                        <li><a href="#layanan">Fabrikasi & Pengelasan</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -1558,14 +1594,14 @@
                 <div class="footer-col">
                     <h4>Kontak</h4>
                     <ul>
-                        <li><a href="tel:081776415826"><i class="fas fa-phone-alt"></i> 081776415826</a></li>
-                        <li><a href="mailto:info@meganiagateknik.co.id"><i class="fas fa-envelope"></i> info@meganiagateknik.co.id</a></li>
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Cengkareng, Jakarta 11730</a></li>
+                        <li><a href="tel:+6281335354449"><i class="fas fa-phone-alt"></i> +62 813-3535-4449</a></li>
+                        <li><a href="mailto:dwiirawan7007@gmail.com"><i class="fas fa-envelope"></i> dwiirawan7007@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Taman Palem Lestari Blok M No. 17, Jakarta Barat 11730</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 CV Mega Niaga Teknik. All rights reserved.</p>
+                <p>&copy; 2024 PT. Marine Niaga Teknik. All rights reserved.</p>
                 <div style="display:flex; gap:24px;">
                     <a href="#" style="transition:color 0.3s;">Privacy Policy</a>
                     <a href="#" style="transition:color 0.3s;">Terms of Service</a>
@@ -1575,7 +1611,7 @@
     </footer>
 
     <!-- WHATSAPP FLOAT -->
-    <a href="https://wa.me/6281776415826" class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
+    <a href="https://wa.me/6281335354449" class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
     <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
